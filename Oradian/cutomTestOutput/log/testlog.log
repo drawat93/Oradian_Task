@@ -1,0 +1,56 @@
+2018-06-17 20:47:04,858 - tests.TestTaskComplete -INFO - ###########Opening Browser##########
+2018-06-17 20:47:23,637 - pageObjects.LoginPageObject -INFO - User is entering username: deepanshutest
+2018-06-17 20:47:23,889 - pageObjects.LoginPageObject -INFO - User is entering password admin123
+2018-06-17 20:47:24,005 - pageObjects.LoginPageObject -INFO - User is clicking on Sign In
+2018-06-17 20:47:28,288 - pageObjects.HomePageObject -INFO - Checking if user is logged in
+2018-06-17 20:47:28,366 - pageObjects.TasksPageObject -INFO - User is clicking on Tasks
+2018-06-17 20:47:28,564 - pageObjects.TasksPageObject -INFO - User is clicking on Create Task
+2018-06-17 20:47:30,399 - pageObjects.TasksPageObject -INFO - User is entering task title as: This is task number -1073757722
+2018-06-17 20:47:31,264 - pageObjects.TasksPageObject -INFO - User is entering task description: This is a random task created by an automation script
+2018-06-17 20:47:32,124 - pageObjects.TasksPageObject -INFO - User is clicking on save task
+2018-06-17 20:47:33,250 - pageObjects.TasksPageObject -INFO - Checking if task creation pop up is coming
+2018-06-17 20:47:33,304 - tests.TestTaskComplete -INFO - Test method createTask is passed
+2018-06-17 20:47:33,308 - pageObjects.TasksPageObject -INFO - User is clicking on All Task
+2018-06-17 20:47:35,066 - pageObjects.TasksPageObject -INFO - User is clicking on created task
+2018-06-17 20:47:35,354 - pageObjects.TasksPageObject -INFO - User is clicking on complete task
+2018-06-17 20:47:35,606 - pageObjects.TasksPageObject -INFO - Checking task which contain task id: -1073757722 exist in task page
+2018-06-17 20:47:38,147 - tests.TestTaskComplete -INFO - Test method completeTask is passed
+2018-06-17 20:47:38,744 - tests.TestTaskComplete -INFO - ###########Closing Browser##########
+2018-06-17 20:47:41,837 - tests.TestLogin -INFO - ###########Opening Browser##########
+2018-06-17 20:47:53,479 - utilities.OradianUtilities -INFO - Reading Excel file credentials
+2018-06-17 20:47:54,655 - utilities.OradianUtilities -INFO - Reading of excel file credentials is completed
+2018-06-17 20:47:54,752 - pageObjects.LoginPageObject -INFO - User is entering username: deepanshutest
+2018-06-17 20:47:55,014 - pageObjects.LoginPageObject -INFO - User is entering password sasdasd
+2018-06-17 20:47:55,150 - pageObjects.LoginPageObject -INFO - User is clicking on Sign In
+2018-06-17 20:47:56,823 - pageObjects.LoginPageObject -INFO - Checking if login error message is coming
+2018-06-17 20:47:56,944 - pageObjects.LoginPageObject -INFO - Checking if login error message is coming
+2018-06-17 20:47:57,025 - tests.TestLogin -INFO - Test method verifyLogin is passed
+2018-06-17 20:47:57,082 - pageObjects.LoginPageObject -INFO - User is entering username: deepanshutest
+2018-06-17 20:47:57,278 - pageObjects.LoginPageObject -INFO - User is entering password admin123
+2018-06-17 20:47:57,378 - pageObjects.LoginPageObject -INFO - User is clicking on Sign In
+2018-06-17 20:48:00,565 - pageObjects.LoginPageObject -INFO - Checking if login error message is coming
+2018-06-17 20:48:00,611 - pageObjects.HomePageObject -INFO - Checking if user is logged in
+2018-06-17 20:48:00,619 - tests.TestLogin -INFO - Test method verifyLogin is passed
+2018-06-17 20:48:00,627 - pageObjects.HomePageObject -INFO - User is clicking on drop down username link
+2018-06-17 20:48:00,747 - pageObjects.HomePageObject -INFO - User is logging out 
+2018-06-17 20:48:01,990 - pageObjects.HomePageObject -INFO - Checking if user is logged in
+2018-06-17 20:48:02,002 - tests.TestLogin -INFO - Test method verifyLogout is passed
+2018-06-17 20:48:02,169 - tests.TestLogin -INFO - ###########Closing Browser##########
+2018-06-17 20:48:05,187 - tests.TestProfileAndLock -INFO - ###########Opening Browser##########
+2018-06-17 20:48:15,949 - pageObjects.LoginPageObject -INFO - User is entering username: deepanshutest
+2018-06-17 20:48:16,262 - pageObjects.LoginPageObject -INFO - User is entering password admin123
+2018-06-17 20:48:16,430 - pageObjects.LoginPageObject -INFO - User is clicking on Sign In
+2018-06-17 20:48:21,289 - pageObjects.HomePageObject -INFO - Checking if user is logged in
+2018-06-17 20:48:21,309 - pageObjects.HomePageObject -INFO - User is clicking on drop down username link
+2018-06-17 20:48:21,497 - pageObjects.HomePageObject -INFO - User is clicking on lock screen
+2018-06-17 20:48:21,686 - pageObjects.HomePageObject -INFO - Checking if screen is locked
+2018-06-17 20:48:22,897 - pageObjects.HomePageObject -INFO - User is entering password on unlock screen
+2018-06-17 20:48:23,082 - pageObjects.HomePageObject -INFO - User is clicking on unlock button
+2018-06-17 20:48:23,231 - pageObjects.HomePageObject -INFO - Checking if screen is unlocked
+2018-06-17 20:48:24,403 - tests.TestProfileAndLock -INFO - Test method checkAccountLock is passed
+2018-06-17 20:48:24,418 - pageObjects.HomePageObject -INFO - User is clicking on drop down username link
+2018-06-17 20:48:24,499 - pageObjects.HomePageObject -INFO - User is clicking on profile
+2018-06-17 20:48:25,887 - pageObjects.HomePageObject -INFO - Retreiving username from profile page
+2018-06-17 20:48:25,995 - pageObjects.HomePageObject -INFO - Retreiving email from profile page
+2018-06-17 20:48:26,060 - tests.TestProfileAndLock -INFO - Test method verifyProfilePage is passed
+2018-06-17 20:48:26,212 - tests.TestProfileAndLock -INFO - ###########Closing Browser##########

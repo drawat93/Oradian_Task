@@ -1,0 +1,4 @@
+tests\TestLogin.class
+tests\TestProfileAndLock.class
+baseTests\BaseClass.class
+tests\TestTaskComplete.class

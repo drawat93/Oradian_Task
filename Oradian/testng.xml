@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Instafin Test Suite">
+
+  <test name="Test Task">
+    <classes>
+      <class name="tests.TestTaskComplete"/>
+    </classes>
+  </test> 
+ 
+  <test  name="Test Login">
+    <classes>
+      <class name="tests.TestLogin"/>
+    </classes>
+  </test> 
+  
+  <test name="Test ProfileAndLock">
+    <classes>
+      <class name="tests.TestProfileAndLock"/>
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->

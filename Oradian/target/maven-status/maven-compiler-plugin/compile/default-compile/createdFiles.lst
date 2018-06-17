@@ -1,0 +1,5 @@
+utilities\OradianUtilities.class
+pageObjects\TasksPageObject.class
+pageObjects\HomePageObject.class
+pageObjects\LoginPageObject.class
+utilities\ReadProperties.class

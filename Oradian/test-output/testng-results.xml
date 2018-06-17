@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-06-17T15:17:01Z" name="Instafin Test Suite" finished-at="2018-06-17T15:18:27Z" duration-ms="85882">
+    <groups>
+    </groups>
+    <test started-at="2018-06-17T15:17:01Z" name="Test Task" finished-at="2018-06-17T15:17:39Z" duration-ms="38399">
+      <class name="tests.TestTaskComplete">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:tests.TestTaskComplete@2cdd0d4b]" started-at="2018-06-17T15:17:01Z" name="setupBrowser" finished-at="2018-06-17T15:17:23Z" duration-ms="22311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:tests.TestTaskComplete@2cdd0d4b]" started-at="2018-06-17T15:17:23Z" name="login" finished-at="2018-06-17T15:17:28Z" duration-ms="4771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="createReportLogger(java.lang.reflect.Method)[pri:0, instance:tests.TestTaskComplete@2cdd0d4b]" started-at="2018-06-17T15:17:28Z" name="createReportLogger" finished-at="2018-06-17T15:17:28Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestTaskComplete.createTask()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReportLogger -->
+        <test-method signature="createTask()[pri:1, instance:tests.TestTaskComplete@2cdd0d4b]" started-at="2018-06-17T15:17:28Z" name="createTask" finished-at="2018-06-17T15:17:33Z" duration-ms="4966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method is-config="true" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:tests.TestTaskComplete@2cdd0d4b]" started-at="2018-06-17T15:17:33Z" name="captureStatus" finished-at="2018-06-17T15:17:33Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createTask status=SUCCESS method=TestTaskComplete.createTask()[pri:1, instance:tests.TestTaskComplete@2cdd0d4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method signature="completeTask()[pri:2, instance:tests.TestTaskComplete@2cdd0d4b]" started-at="2018-06-17T15:17:33Z" name="completeTask" finished-at="2018-06-17T15:17:38Z" duration-ms="4835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeTask -->
+        <test-method is-config="true" signature="createReportLogger(java.lang.reflect.Method)[pri:0, instance:tests.TestTaskComplete@2cdd0d4b]" started-at="2018-06-17T15:17:33Z" name="createReportLogger" finished-at="2018-06-17T15:17:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestTaskComplete.completeTask()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReportLogger -->
+        <test-method is-config="true" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:tests.TestTaskComplete@2cdd0d4b]" started-at="2018-06-17T15:17:38Z" name="captureStatus" finished-at="2018-06-17T15:17:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completeTask status=SUCCESS method=TestTaskComplete.completeTask()[pri:2, instance:tests.TestTaskComplete@2cdd0d4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestTaskComplete@2cdd0d4b]" started-at="2018-06-17T15:17:38Z" name="tearDown" finished-at="2018-06-17T15:17:39Z" duration-ms="1465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestTaskComplete -->
+    </test> <!-- Test Task -->
+    <test started-at="2018-06-17T15:17:39Z" name="Test Login" finished-at="2018-06-17T15:18:03Z" duration-ms="23344">
+      <class name="tests.TestLogin">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:tests.TestLogin@3d1cfad4]" started-at="2018-06-17T15:17:39Z" name="setupBrowser" finished-at="2018-06-17T15:17:53Z" duration-ms="13810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="createReportLogger(java.lang.reflect.Method)[pri:0, instance:tests.TestLogin@3d1cfad4]" started-at="2018-06-17T15:17:54Z" name="createReportLogger" finished-at="2018-06-17T15:17:54Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestLogin.verifyLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReportLogger -->
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.TestLogin@3d1cfad4]" started-at="2018-06-17T15:17:54Z" name="verifyLogin" data-provider="credentials" finished-at="2018-06-17T15:17:57Z" duration-ms="2362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepanshutest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasdasd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.TestLogin@3d1cfad4]" started-at="2018-06-17T15:17:57Z" name="verifyLogin" data-provider="credentials" finished-at="2018-06-17T15:18:00Z" duration-ms="3594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepanshutest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:tests.TestLogin@3d1cfad4]" started-at="2018-06-17T15:17:57Z" name="captureStatus" finished-at="2018-06-17T15:17:57Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TestLogin.verifyLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.TestLogin@3d1cfad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method is-config="true" signature="createReportLogger(java.lang.reflect.Method)[pri:0, instance:tests.TestLogin@3d1cfad4]" started-at="2018-06-17T15:17:57Z" name="createReportLogger" finished-at="2018-06-17T15:17:57Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestLogin.verifyLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReportLogger -->
+        <test-method is-config="true" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:tests.TestLogin@3d1cfad4]" started-at="2018-06-17T15:18:00Z" name="captureStatus" finished-at="2018-06-17T15:18:00Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TestLogin.verifyLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.TestLogin@3d1cfad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method is-config="true" signature="createReportLogger(java.lang.reflect.Method)[pri:0, instance:tests.TestLogin@3d1cfad4]" started-at="2018-06-17T15:18:00Z" name="createReportLogger" finished-at="2018-06-17T15:18:00Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestLogin.verifyLogout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReportLogger -->
+        <test-method signature="verifyLogout()[pri:2, instance:tests.TestLogin@3d1cfad4]" started-at="2018-06-17T15:18:00Z" name="verifyLogout" finished-at="2018-06-17T15:18:02Z" duration-ms="1379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestLogin@3d1cfad4]" started-at="2018-06-17T15:18:02Z" name="tearDown" finished-at="2018-06-17T15:18:03Z" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:tests.TestLogin@3d1cfad4]" started-at="2018-06-17T15:18:02Z" name="captureStatus" finished-at="2018-06-17T15:18:02Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogout status=SUCCESS method=TestLogin.verifyLogout()[pri:2, instance:tests.TestLogin@3d1cfad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+      </class> <!-- tests.TestLogin -->
+    </test> <!-- Test Login -->
+    <test started-at="2018-06-17T15:18:03Z" name="Test ProfileAndLock" finished-at="2018-06-17T15:18:27Z" duration-ms="24030">
+      <class name="tests.TestProfileAndLock">
+        <test-method is-config="true" signature="setupExtentReports()[pri:0, instance:tests.TestProfileAndLock@c333c60]" started-at="2018-06-17T15:17:00Z" name="setupExtentReports" finished-at="2018-06-17T15:17:01Z" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReports -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:tests.TestProfileAndLock@c333c60]" started-at="2018-06-17T15:18:03Z" name="setupBrowser" finished-at="2018-06-17T15:18:15Z" duration-ms="12774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="verifyLogin()[pri:0, instance:tests.TestProfileAndLock@c333c60]" started-at="2018-06-17T15:18:15Z" name="verifyLogin" finished-at="2018-06-17T15:18:21Z" duration-ms="5447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="createReportLogger(java.lang.reflect.Method)[pri:0, instance:tests.TestProfileAndLock@c333c60]" started-at="2018-06-17T15:18:21Z" name="createReportLogger" finished-at="2018-06-17T15:18:21Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestProfileAndLock.checkAccountLock()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReportLogger -->
+        <test-method signature="checkAccountLock()[pri:1, instance:tests.TestProfileAndLock@c333c60]" started-at="2018-06-17T15:18:21Z" name="checkAccountLock" finished-at="2018-06-17T15:18:24Z" duration-ms="3098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAccountLock -->
+        <test-method is-config="true" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:tests.TestProfileAndLock@c333c60]" started-at="2018-06-17T15:18:24Z" name="captureStatus" finished-at="2018-06-17T15:18:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAccountLock status=SUCCESS method=TestProfileAndLock.checkAccountLock()[pri:1, instance:tests.TestProfileAndLock@c333c60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method is-config="true" signature="createReportLogger(java.lang.reflect.Method)[pri:0, instance:tests.TestProfileAndLock@c333c60]" started-at="2018-06-17T15:18:24Z" name="createReportLogger" finished-at="2018-06-17T15:18:24Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestProfileAndLock.verifyProfilePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReportLogger -->
+        <test-method signature="verifyProfilePage()[pri:2, instance:tests.TestProfileAndLock@c333c60]" started-at="2018-06-17T15:18:24Z" name="verifyProfilePage" finished-at="2018-06-17T15:18:26Z" duration-ms="1643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProfilePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestProfileAndLock@c333c60]" started-at="2018-06-17T15:18:26Z" name="tearDown" finished-at="2018-06-17T15:18:27Z" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:tests.TestProfileAndLock@c333c60]" started-at="2018-06-17T15:18:26Z" name="captureStatus" finished-at="2018-06-17T15:18:26Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProfilePage status=SUCCESS method=TestProfileAndLock.verifyProfilePage()[pri:2, instance:tests.TestProfileAndLock@c333c60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+      </class> <!-- tests.TestProfileAndLock -->
+    </test> <!-- Test ProfileAndLock -->
+  </suite> <!-- Instafin Test Suite -->
+</testng-results>

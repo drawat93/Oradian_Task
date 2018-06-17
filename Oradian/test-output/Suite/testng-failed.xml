@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.TestTaskComplete">
+        <methods>
+          <include name="setupBrowser"/>
+          <include name="completeTask"/>
+          <include name="captureStatus"/>
+          <include name="tearDown"/>
+          <include name="setupExtentReports"/>
+          <include name="createReportLogger"/>
+          <include name="createTask"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- tests.TestTaskComplete -->
+      <class name="tests.TestLogin">
+        <methods>
+          <include name="verifyLogout"/>
+          <include name="setupBrowser"/>
+          <include name="captureStatus"/>
+          <include name="tearDown"/>
+          <include name="verifyLogin"/>
+          <include name="setupExtentReports"/>
+          <include name="createReportLogger"/>
+        </methods>
+      </class> <!-- tests.TestLogin -->
+      <class name="tests.TestCheckProfile">
+        <methods>
+          <include name="setupBrowser"/>
+          <include name="verifyProfilePage"/>
+          <include name="verifyLogin"/>
+          <include name="captureStatus"/>
+          <include name="tearDown"/>
+          <include name="setupExtentReports"/>
+          <include name="createReportLogger"/>
+        </methods>
+      </class> <!-- tests.TestCheckProfile -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
