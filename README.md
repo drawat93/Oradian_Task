@@ -5,10 +5,16 @@ This project has been build using Java with Maven, jars and plugins used are men
 # Scenarios Covered in this framework:
 
 a) To verify Login functionality of Instafin 
-b) To verify logout functinality of Instafin
-c) To verify User is able to create and complete tasks
-d) To verify user is able to lock his account 
-e) To verify correct user details are coming in profile page
+
+b) To verify logout functionality of Instafin
+
+c) To verify user is able to create task
+
+d) To verify user is able to complete a task
+
+e) To verify user is able to lock and unlock his account 
+
+f) To verify correct user details are coming in profile page
 
 # Project Structure:
 
